@@ -1,0 +1,14 @@
+name: chargegreen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - pre-commit
+  - requests
+  - pandas
+  - python=3.9
+  - streamlit
+  - flake8
+  - black
+  - mypy
