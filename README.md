@@ -17,12 +17,16 @@ Different definitions for y are possible:
 
 ## Get started (devs)
 
-Run the following in the project root `./`:
+Ensure to have `Anaconda/Miniconda` or `pipenv` for the basic setup. Open a conda prompt and run the following in the project root `./`:
 
 ```bash
-# create and activate conda env
+# create and activate virtual env
+# conda
 conda env create -f conda.yaml -y
 conda activate chargegreen
+
+# pipenv
+pipenv install
 
 # init pre-commit
 pre-commit install

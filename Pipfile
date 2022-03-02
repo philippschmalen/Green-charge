@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+pre-commit = "*"
+requests = "*"
+pandas = "*"
+streamlit = "*"
+flake8  = "*"
+black  = "*"
+mypy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
